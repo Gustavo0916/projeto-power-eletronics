@@ -1,0 +1,1162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+#conteiner-principal {
+    margin: 0 auto;
+}
+
+/******************** INICIO CONTAINER TOP  **************************/
+
+#container-top {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    background: #f7f7f7;
+}
+
+.box-store-location {
+    width: 243px;
+    height: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.store-number p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.store-location p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    color: #333;
+}
+
+.description-top p {
+    width: 385px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.box-login-sign-up {
+    width: 159px;
+    height: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.login p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    color: #333;
+    cursor: pointer;
+}
+
+.sign-up p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    color: #333;
+    cursor: pointer;
+}
+
+/******************** FIM CONTAINER TOP  **************************/
+
+/****/
+
+/****/
+
+/******************** INICIO HEADER **************************/
+
+header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin-top: 5px;
+}
+
+.box-soon {
+    width: 258px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.box-img-soon {
+    width: 75px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.box-img-soon img {
+    width: 70px;
+}
+
+.box-description-soon {
+    width: 185px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 17.5px;
+}
+
+.title-soon {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-soon span {
+    color: #ff6600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.secondary-title h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    padding-top: 2px;
+    color: #333;
+}
+
+nav {
+    width: 425px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #585858;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+    transition: all 0.8s;
+}
+
+.box-icons {
+    width: 170px;
+    height: 90px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: end;
+}
+
+.search {
+    cursor: pointer;
+}
+
+.heart {
+    cursor: pointer;
+}
+
+.shopping-bad {
+    position: relative;
+    cursor: pointer;
+}
+
+.highlighter {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50%;
+    left: 15px;
+    right: 0;
+    top: 16px;
+    background: rgb(200, 40, 40);
+}
+
+.highlighter p {
+    font-size: 0.8rem;
+}
+
+/******************** FIM HEADER **************************/
+
+/****/
+
+/****/
+
+/******************** INICIO CONTAINER HOME **************************/
+
+#container-home {
+    width: 100%;
+    height: 470px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.box-left-home {
+    width: 570px;
+    height: 420px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box-title-first {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.box-title-first h2 {
+    color: #c2550c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+
+.box-title-second {
+    width: 100%;
+    height: 105px;
+    display: flex;
+    align-items: center;
+}
+
+.box-title-second h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    color: #333;
+}
+
+.description-home {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.description-home p {
+    color: #333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+
+.btn-price-home {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-price-home button {
+    width: 150px;
+    height: 35px;
+    background: #c2550c;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    font-weight: bolder;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.btn-price-home button:hover {
+    border: 1px solid #c2550c;
+    color: #c2550c;
+    background: transparent;
+}
+
+/****/
+
+.box-right-home {
+    width: 570px;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-right-home img {
+    width: 570px;
+}
+
+/******************** FIM CONTAINER HOME **************************/
+
+/****/
+
+/****/
+
+/******************** INICIO CONTAINER CATEGORIES **************************/
+
+#container-categories {
+    width: 100%;
+    height: 300px;
+    padding: 0 50px;
+}
+
+.box-title-categories {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.box-title-categories h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333;
+}
+
+.box-main-categories {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-items-categories {
+    width: 170px;
+    height: 210px;
+    cursor: pointer;
+}
+
+.box-items-categories:hover {
+    box-shadow: 10px 5px 5px #e1e0e0;
+    -webkit-transform: scale(1.08);
+        -ms-transform: scale(1.08);
+        transform: scale(1.08);
+}
+
+.box-img-items-categories {
+    width: 170px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-img-items-categories img {
+    margin-top: -25px;
+    width: 130px;
+}
+
+.box-description-items h4 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #333;
+}
+
+/******************** FIM CONTAINER CATEGORIES **************************/
+
+
+/****/
+
+/****/
+
+/******************** INICIO CONTAINER ADVERTISING **************************/
+
+#container-advertising {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.box-description-advertising {
+    width: 100%;
+    height: 145px;
+}
+
+.description-first-advertising {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-second-advertising {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-second-advertising h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #333;
+}
+
+.description-first-advertising h4 {
+    color: #585858;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.btn-price-advertising {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-price-advertising button {
+    width: 150px;
+    height: 35px;
+    background: #c2550c;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    font-weight: bolder;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.btn-price-advertising button:hover {
+    border: 1px solid #c2550c;
+    color: #c2550c;
+    background: transparent;
+}
+
+.box-img-advertising {
+    width: 100%;
+    height: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-img-advertising-camera img {
+    width: 280px;
+    margin-top: 30px;
+}
+
+.box-img-advertising-camera {
+    width: 100%;
+    height: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-img-advertising img {
+    width: 250px;
+}
+
+.box-left-advertising {
+    width: 550px;
+    height: 390px;
+    background: #eeeeee;
+}
+
+.box-right-advertising {
+    width: 550px;
+    height: 390px;
+    background: #eeeeee;
+}
+
+/******************** FIM CONTAINER ADVERTISING **************************/
+
+/****/
+
+/****/
+
+/******************** INICIO CONTAINER PRODUCTS SLIDER **************************/
+
+#container-products {
+    width: 100%;
+    height: 95vh;
+    margin-top: 30px;
+    padding: 0 50px;
+}
+
+.title-main-product {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.title-main-product h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333;
+}
+
+.slider {
+    margin-top: 20px;
+    display: flex;
+    gap: 34px;
+}
+
+.slider .card {
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 265px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.like {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.slider .card .product {
+    width: 85%;
+    object-fit: contain;
+}
+
+.product {
+    width: 320px;
+    height: 300px;
+}
+
+.slider .card .title-item {
+    font-weight: 300px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+
+.slider .card .price {
+    display: flex;
+    gap: 10px;
+    margin: 0.5rem 0;
+}
+
+.slider .card .price h5:first-child {
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #d0d2d6;
+}
+
+.slider .card .price h5:last-child {
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.slider .card a {
+    border: 1px solid #c2550c;
+    border-radius: 30px;
+    color: #c2550c;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1.5rem;
+    transition: all 0.8s ease;
+}
+
+.slider .card a:hover {
+    background: #c2550c;
+    color: #fff;
+}
+
+/******************** FIM CONTAINER PRODUCTS SLIDER **************************/
+
+/****/
+
+/****/
+
+/******************** INICIO CONTAINER PUBLICATION **************************/
+
+#container-publication {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background: #e7ebee;
+}
+
+.box-left-publication {
+    width: 530px;
+    height: 64vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hurry-up {
+    width: 130px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #c2550c;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+.hurry-up p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: 300;
+}
+
+.description-publication {
+    margin-bottom: 15px;
+}
+
+.description-publication p {
+    width: 400px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.description-publication span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-publication button {
+    color: #333;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: underline;
+    background: transparent;
+    border: none;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.btn-publication button:hover {
+    color: #c2550c;
+    text-decoration: none;
+}
+
+/****/
+
+.box-right-publication {
+    position: relative;
+    width: 530px;
+    height: 64vh;
+}
+
+.img-publication-1 img {
+    width: 230px;
+}
+
+.img-publication-2 img {
+    width: 200px;
+}
+
+.img-publication-1 {
+    position: absolute;
+    left: 250px;
+    top: 10px;
+}
+
+.img-publication-2 {
+    position: absolute;
+    top: 83px;
+    left: 45px;
+}
+
+/******************** FIM CONTAINER PUBLICATION **************************/
+
+/****/
+
+/****/
+
+/******************** INICIO CONTAINER PRODUCTS POPULAR **************************/
+
+#container-products-popular {
+    width: 100%;
+    height: 145vh;
+    padding: 0 50px;
+    margin-top: 30px;
+}
+
+.box-title-popular {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.box-title-popular h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333;
+}
+
+.box-main-products-popular {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    gap: 26px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-items-popular {
+    width: 270px;
+    height: 380px;
+}
+
+.box-img-popular {
+    width: 100%;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-img-popular img {
+    width: 190px;
+    object-fit: contain;
+}
+
+.box-star-popular {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-popular {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.description-popular p {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.box-price-popular {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.price-1 {
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #d0d2d6;
+}
+
+.price-2 {
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.box-btn-popular {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.box-btn-popular button {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background: transparent;
+    text-decoration: underline;
+    border: none;
+    cursor: pointer;
+}
+
+.box-btn-popular button:hover {
+    color: #c2550c;
+    text-decoration: none;
+}
+
+/**** ANIMAÇÃO ****/
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all .5s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 2.5s;
+}
+
+/****/
+
+/******************** FIM CONTAINER PRODUCTS POPULAR **************************/
+
+/****/
+
+/****/
+
+/******************** INICIO CONTAINER BLOGS **************************/
+
+.post-slider {
+    position: relative;
+    background: #ededed;
+}
+
+.post-slider .slider-title {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    font-size: 1.6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333;
+}
+
+.post-slider .next {
+    position: absolute;
+    font-size: 1.5rem;
+    top: 55%;
+    right: 25px;
+    color: #585858;
+    cursor: pointer;
+}
+
+.post-slider .prev {
+    position: absolute;
+    font-size: 1.5rem;
+    top: 55%;
+    left: 20px;
+    color: #585858;
+    cursor: pointer;
+}
+
+.post-slider .post-wrapper {
+    width: 92%;
+    height: 350px;
+    margin: 0 50px;
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+}
+
+.post-slider .post-wrapper .post {
+    width: 300px;
+    height: 330px;
+    margin: 0px 10px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 1rem 1rem 1rem -1rem #c1c1c1;
+}
+
+.post-slider .post-wrapper .post .slider-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.post-info h4 {
+    padding: 5px 0px 5px 5px;
+}
+
+.post-info h4 a {
+    color: #333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.9rem;
+}
+
+.post-info p {
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: #585858;
+    font-size: 0.9rem;
+}
+
+.btn-blog {
+    padding-left: 5px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-blog button {
+    color: #c2550c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/******************** FIM CONTAINER BLOGS **************************/
+
+/****/
+
+/****/
+
+/******************** INICIO CONTAINER BENEFIT **************************/
+
+#container-benefit {
+    width: 100%;
+    height: 50vh;
+    padding: 0 50px;
+    margin-top: 30px;
+}
+
+.box-main-benefit {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-items-benefit {
+    width: 300px;
+    height: 210px;
+    box-shadow: 7.5px 5px 5px #e2e2e2;
+}
+
+.box-icone-benefit {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-title-benefit {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-title-benefit h3 {
+    color: #474747;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.box-description-benefit {
+    width: 90%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.box-description-benefit p {
+    color: #717171;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/******************** FIM CONTAINER BENEFIT **************************/
+
+/****/
+
+/****/
+
+/******************** INICIO CONTAINER FOOTER **************************/
+
+#container-footer {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 0 50px;
+    margin-top: 20px;
+}
+
+.box-left-footer {
+    width: 260px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-title-footer {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.box-title-footer h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.description-footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    border: 1px solid #fff;
+}
+
+.description-footer p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #636363;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.description-footer p:hover {
+    color: #c2550c;
+    text-decoration: underline;
+}
+
+.description-footer p strong {
+    color: #000;
+}
+
+.description-footer p span {
+    color: #c2550c;
+}
+
+/****/
+
+.box-center-footer {
+    width: 260px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/****/
+
+.box-right-footer {
+    width: 260px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/****/
+
+.box-app {
+    width: 360px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-app .description-footer p:hover {
+    text-decoration: none;
+    cursor: auto;
+    color: #636363;
+}
+
+.box-img-app {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-img-app img {
+    width: 130px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/******************** FIM CONTAINER FOOTER **************************/
+
+.line-separate {
+    width: 100%;
+    height: 1px;
+    border: 1px solid #e3e3e3;
+}
+
+#container-contact-programmer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0 50px;
+}
+
+.name-programmer p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-programmer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-email {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
